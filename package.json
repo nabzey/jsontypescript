@@ -1,22 +1,12 @@
 {
-  "name": "projettypscript",
+  "name": "json-server-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API mock avec JSON Server",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "json-server": "json-server --watch db.json --port 3001"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/leaflet": "^1.9.20",
-    "typescript": "^5.9.2"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3",
-    "leaflet": "^1.9.4"
+    "json-server": "^0.17.4"
   }
 }
