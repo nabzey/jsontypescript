@@ -1,0 +1,20 @@
+{
+  "name": "projettypscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
